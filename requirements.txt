@@ -1,0 +1,9 @@
+# Snapchat Merger V2 Requirements
+# Python 3.8+
+
+# Core dependencies (no external packages required for basic functionality)
+# The project uses only Python standard library modules
+
+# Optional dependencies for full functionality:
+# ffmpeg-python>=0.2.0  # For overlay merging (requires ffmpeg installed)
+# Pillow>=9.0.0         # For image processing

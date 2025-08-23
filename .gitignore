@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Input and Output directories
+# Ignore everything in these directories except .gitkeep files
+input/*
+!input/.gitkeep
+!input/README.md
+
+output/*
+!output/.gitkeep
+
+# Temporary files
+temp_media/
+*.tmp
+*.temp
+
+# Log files
+*.log
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
