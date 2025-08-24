@@ -161,9 +161,9 @@ def main() -> int:
     
     try:
         # Import phases here to avoid circular imports
-        from phases.phase0_initial import run_phase0
-        from phases.phase1_mapping import run_phase1
-        from phases.phase2_organization import run_phase2
+        from phases.phase0 import run_phase0
+        from phases.phase1 import run_phase1
+        from phases.phase2 import run_phase2
         from phases.phase3_validation import run_phase3
         from statistics.reporter_rich import StatisticsReporter
         

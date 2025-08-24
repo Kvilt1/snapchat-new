@@ -12,7 +12,7 @@ from typing import Dict, Any
 # Add the snapchat-new directory to the Python path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
-from phases.phase1_mapping import run_phase1
+from phases.phase1 import run_phase1
 
 # Set up logging to see info messages
 logging.basicConfig(level=logging.INFO, format='%(message)s')
@@ -161,7 +161,7 @@ def test_phase1_functions():
     print("Testing Individual Phase 1 Functions")
     print("=" * 60)
     
-    from phases.phase1_mapping import (
+    from phases.phase1 import (
         split_pipe_separated_ids,
         extract_media_id_from_filename,
         create_media_index,

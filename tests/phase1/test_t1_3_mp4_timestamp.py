@@ -11,7 +11,7 @@ from datetime import datetime, timezone
 # Add the snapchat-new directory to the Python path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
-from phases.phase1_mapping import (
+from phases.phase1 import (
     parse_mp4_timestamp_binary,
     parse_mp4_timestamp_ffprobe,
     extract_mp4_timestamp,

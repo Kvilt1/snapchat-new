@@ -9,7 +9,7 @@ from pathlib import Path
 # Add the snapchat-new directory to the Python path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
-from phases.phase1_mapping import extract_media_id_from_filename
+from phases.phase1 import extract_media_id_from_filename
 
 
 def test_extract_media_id_from_filename():

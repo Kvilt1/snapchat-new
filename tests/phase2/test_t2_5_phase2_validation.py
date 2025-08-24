@@ -12,7 +12,7 @@ from datetime import datetime
 # Add the snapchat-new directory to the Python path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
-from phases.phase2_organization import (
+from phases.phase2 import (
     verify_file_counts,
     check_media_references,
     validate_directory_structure,

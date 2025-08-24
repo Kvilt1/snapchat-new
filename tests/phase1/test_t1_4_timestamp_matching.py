@@ -13,7 +13,7 @@ from typing import Dict, List, Any
 # Add the snapchat-new directory to the Python path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
-from phases.phase1_mapping import (
+from phases.phase1 import (
     build_millisecond_index,
     find_closest_message_binary,
     match_mp4_timestamps,

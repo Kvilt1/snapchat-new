@@ -11,7 +11,7 @@ from pathlib import Path
 # Add the snapchat-new directory to the Python path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
-from phases.phase2_organization import (
+from phases.phase2 import (
     update_message_media_references,
     update_conversation_json,
     process_json_updates,

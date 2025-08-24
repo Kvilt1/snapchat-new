@@ -11,7 +11,7 @@ from pprint import pprint
 # Add the snapchat-new directory to the Python path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
-from phases.phase1_mapping import create_media_index, extract_media_ids_from_messages
+from phases.phase1 import create_media_index, extract_media_ids_from_messages
 
 
 def test_create_media_index():
